@@ -26,7 +26,7 @@ This repo contains the source code of the netlist-to-graph transformation from o
 * More info regarding conda env setup/creation is given below.
 ## Netlist-to-graph Conversion
 ### Datasets
-The `./Netlist_to_graph/Circuits_datasets/` directory contains the `Interconnected-Modules` dataset used in (TCAD'21). The dataset contains 37 designs. Five different sub-circuit classes exist in the dataset, i.e., adders, multipliers, control logic, subtractors, and comparators. All the designs are synthesized using Synopsys Design Compiler with Global Foundries 65nm LPe.
+The `./Netlist_to_graph/Circuits_datasets/` directory contains the `Interconnected-Modules` dataset used in (TCAD'21). The dataset contains 37 designs. Five different sub-circuit classes exist in the dataset, i.e., adders, multipliers, control logic, subtractors, and comparators. All the designs are synthesized using Synopsys Design Compiler with Global Foundries 65nm LPe. **We also release the original `Interconnected-Modules` RTL dataset in `./RTL_Dataset.zip` so that the users can synthesize the designs using different standard cell libs if needed**.
 
 When creating a dataset, the files used for training, validation or testing must be identified. To split files into Test/Train/validate, the files must be named accordingly. A locked file must be named as follows: [Test|Train|Validate]_*.v
 
