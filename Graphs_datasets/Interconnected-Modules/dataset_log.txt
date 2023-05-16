@@ -1,0 +1,21 @@
+Log file for the dataset
+Total # of nodes is 104727
+Total # of nodes in testing 6538
+Total # of nodes in training 96251
+Total # of nodes in validation 1938
+Total # of features for each node is 34
+P_Adder_tr is 6.127728543080072
+P_Adder_te is 10.58427653716733
+P_Adder_va is 11.351909184726521
+P_Mul_tr is 87.75597136653126
+P_Mul_te is 78.29611501988376
+P_Mul_va is 76.47058823529412
+P_Control_tr is 1.8534872364962443
+P_Control_te is 3.6861425512389108
+P_Control_va is 6.191950464396285
+P_Sub_tr is 3.435808459132892
+P_Sub_te is 5.674518201284797
+P_Sub_va is 3.508771929824561
+P_Comp_tr is 0.8270043947595349
+P_Comp_te is 1.7589476904252066
+P_Comp_va is 2.476780185758514
